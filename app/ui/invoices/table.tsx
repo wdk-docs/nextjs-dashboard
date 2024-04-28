@@ -58,22 +58,22 @@ export default async function InvoicesTable({
             <thead className="rounded-lg text-left text-sm font-normal">
               <tr>
                 <th scope="col" className="px-4 py-5 font-medium sm:pl-6">
-                  Customer
+                  顾客
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
-                  Email
+                  电子邮件
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
-                  Amount
+                  数量
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
-                  Date
+                  日期
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
-                  Status
+                  状态
                 </th>
                 <th scope="col" className="relative py-3 pl-6 pr-3">
-                  <span className="sr-only">Edit</span>
+                  <span className="sr-only">编辑</span>
                 </th>
               </tr>
             </thead>
